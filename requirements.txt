@@ -1,0 +1,4 @@
+Flask==1.0.4
+connexion==2.14.1
+connexion[swagger-ui]
+flake8
