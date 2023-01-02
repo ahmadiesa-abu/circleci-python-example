@@ -37,7 +37,6 @@ def get_one(fname):
     return person
 
 
-
 def add(person):
     fname = person.get("fname", None)
     lname = person.get("lname", None)
@@ -59,7 +58,6 @@ def add(person):
             406,
             "Peron with first name {fname} already exists".format(fname=fname),
         )
-
 
 
 def update(fname, person):
